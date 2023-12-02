@@ -1,0 +1,77 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0PX 20px;
+}
+
+body{
+    background-color: #1B1833;
+    font-family: 'Mukta';
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    gap: 13px;
+}
+
+.conheca_mais{
+    height: 100vh;
+    background-image: url("https://wallpaperset.com/w/full/d/c/3/369417.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+
+.informacoes{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    font-family: "Pacifico";
+    color: #1B1833;
+}
+.informacoes h1{
+    font-size: 36px;
+}
+
+.informacoes p{
+    font-family: "Rubik Bubbles";
+    font-size: 25px;
+}
+
+.informacoes button{
+    background-color: #1B1833;
+    color: white;
+    font-family: "Pacifico";
+    border-radius: 20px;
+    border: none;
+    padding: 4px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+
+.informacoes button:hover{
+    transform: scale(1.1);
+
+}
